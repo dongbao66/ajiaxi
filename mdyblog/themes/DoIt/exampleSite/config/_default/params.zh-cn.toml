@@ -1,15 +1,15 @@
 # site description
 # 网站描述
-description = "Hugo DoIt 主题官方文档"
+description = "私人博客"
 # site keywords
 # 网站关键词
-keywords = ["Theme", "Hugo"]
+keywords = ["Share", "Hugo"]
 # App icon config
 # 应用图标配置
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
   # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-  title = "DoIt"
+  title = "阿加西"
   # whether to omit favicon resource links
   # 是否隐藏网站图标资源链接
   noFavicon = false
@@ -28,7 +28,7 @@ keywords = ["Theme", "Hugo"]
   enable = true
   # type of search engine ("algolia", "fuse")
   # 搜索引擎的类型 ("algolia", "fuse")
-  type = "algolia"
+  type = "fuse"
   # max index length of the chunked content
   # 文章内容最长索引长度
   contentLength = 4000
@@ -48,9 +48,9 @@ keywords = ["Theme", "Hugo"]
   # 是否在搜索索引中使用基于 baseURL 的绝对路径
   absoluteURL = false
   [search.algolia]
-    index = "zh_cn_index"
-    appID = "5YGRNRQK1G"
-    searchKey = "0ff6874805de24b84aa1d5ebccad56cd"
+    index = ""
+    appID = ""
+    searchKey = ""
   [search.fuse]
     # https://fusejs.io/api/options.html
     isCaseSensitive = false
@@ -74,7 +74,7 @@ keywords = ["Theme", "Hugo"]
     enable = true
     # Gravatar Email for preferred avatar in home page
     # Gravatar 邮箱，用于优先在主页显示的头像
-    gravatarEmail = ""
+    gravatarEmail = "dongbao183@gmail.com"
     # URL of avatar shown in home page
     # 主页显示头像的 URL
     avatarURL = "/images/avatar.webp"
@@ -83,7 +83,7 @@ keywords = ["Theme", "Hugo"]
     title = ""
     # subtitle shown in home page
     # 主页显示的网站副标题
-    subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+    subtitle = ""
     # whether to use typeit animation for subtitle
     # 是否为副标题显示打字机动画
     typeit = true
@@ -106,22 +106,22 @@ keywords = ["Theme", "Hugo"]
   Angellist = ""
   Bandcamp = ""
   Behance = ""
-  Bilibili = "xxxx"
+  Bilibili = ""
   Bitbucket = ""
   BuyMeACoffee = ""
   Codepen = ""
   Deviantart = ""
-  Devto = "xxxx"
-  Douban = "xxxx"
+  Devto = ""
+  Douban = ""
   Dribbble = ""
-  Email = "xxxx@xxxx.com"
+  Email = "dongbao183@gmail.com"
   Facebook = ""
   Fivehundredpx = ""
   Flickr = ""
   Foursquare = ""
   FreeCodeCamp = ""
   Gitea = ""
-  GitHub = "xxxx"
+  GitHub = "https://github.com/dongbao66"
   Gitlab = ""
   Goodreads = ""
   Googlescholar = ""
@@ -156,7 +156,7 @@ keywords = ["Theme", "Hugo"]
   Soundcloud = ""
   Spotify = ""
   Stackoverflow = ""
-  Steam = "xxxx"
+  Steam = ""
   Strava = ""
   Telegram = ""
   Thingiverse = ""
@@ -165,7 +165,7 @@ keywords = ["Theme", "Hugo"]
   Twitter = ""
   Vine = ""
   VK = ""
-  Weibo = "xxxx"
+  Weibo = ""
   Whatsapp = ""
   Wordpress = ""
   Xing = ""
@@ -175,12 +175,12 @@ keywords = ["Theme", "Hugo"]
   Youtubelegacy = ""
   Zhihu = "xxxx"
   [social.Diaspora]
-    id = "@xxxx"
-    prefix = "https://yyyy/"
+    id = ""
+    prefix = ""
 # Sponsor config
 # 赞助设置
 [sponsor]
   enable = false
   bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
-  link = "https://github.com/sponsors/HEIGE-PCloud"
+  link = ""
   # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
